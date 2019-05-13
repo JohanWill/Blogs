@@ -1,10 +1,3 @@
----
-title: Markdown语法
-date: 2019-04-20 11:00:00
-tags: [Markdown]
-categories: syntax
----
-
 # 这是一级标题
 ## 这是二级标题
 ### 这是三级标题
@@ -98,6 +91,8 @@ System.out.println("Hello World!")
          echo "这是一句非常牛逼的代码";
     }
     fun();
+    
+    document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```
 
 
@@ -111,6 +106,10 @@ graph TD
     C -->|Two| E[iPhone]
     C -->|Three| A[Chritmas]
 ```
+------------------------------分割线-------------------------------------
+#数学公式
+<a href="https://www.codecogs.com/eqnedit.php?latex=$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$" title="$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$" /></a>
+
 
 ------------------------------分割线-------------------------------------
 
