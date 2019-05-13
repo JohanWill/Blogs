@@ -49,14 +49,14 @@ Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitH
 ## 创建版本库````
 版本库又名仓库，英文名repository，你可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。
 
-```
+```bash
 # 初始化一个仓库
 
 $ cd my_repository
 $ git init
 ```
 
-```
+```bash
 # 在当前目录/子目录新建一个文件
 
 $ vim hello_world.txt
@@ -64,7 +64,7 @@ $ git add hello_world.txt
 ```
 执行上面的命令，没有任何显示，这就对了，Unix的哲学是“没有消息就是好消息”，说明添加成功。
 
-```
+```bash
 # 把文件提交到仓库
 
 $ git commit -m "wrote a readme file"
@@ -76,7 +76,7 @@ $ git commit -m "wrote a readme file"
 简单解释一下git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
 
 为什么Git添加文件需要add，commit一共两步呢？因为commit可以一次提交很多文件，所以你可以多次add不同的文件，比如:
-```
+```bash
 $ git add file1.txt
 $ git add file2.txt file3.txt
 $ git commit -m "add 3 files."
